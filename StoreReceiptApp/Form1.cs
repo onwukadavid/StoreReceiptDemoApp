@@ -55,7 +55,7 @@ namespace StoreReceiptApp
 
         private void btnDestroy_Click(object sender, EventArgs e)
         {
-            a = null; //unreferences all objects
+            a = null; 
         }
 
         private void btnGC_Click(object sender, EventArgs e)
