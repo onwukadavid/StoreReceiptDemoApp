@@ -60,7 +60,7 @@ namespace StoreReceiptApp
 
         private void btnGC_Click(object sender, EventArgs e)
         {
-            GC.Collect();
+            GC.Collect();       // invokes garbage collection
         }
 
         private void btnTemp_Click(object sender, EventArgs e)
